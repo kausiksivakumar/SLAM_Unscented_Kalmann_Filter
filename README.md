@@ -10,6 +10,9 @@ The `data.mat` files present in the `data/` directory contains data from a Plana
 
 The robot's ground truth directory is given in red, and the predicted localization trajectory is given in green. The occupancy map is built on the fly simultaneously with localization
 
-
+![plot](./results/traj_1.png)
+![plot](./results/traj_2.png)
+![plot](./results/traj_3.png)
+![plot](./results/traj_4.png)
 
 
