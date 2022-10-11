@@ -6,6 +6,10 @@ Orientation Tracking. This is not the official repository
 
 The `data.mat` files present in the `data/` directory contains data from a Planar LIDAR sensor and the robot's IMU sensor. The algorithm reads the data, gets the sequence of sensor inputs that are temporally consistent and implements an Unscented Kalmann Filter to so Simulataneous Localization and Tracking
 
+# To run the code
+
+```python main.py --src_dir './data' --log_dir './log'```
+
 # Results
 
 The robot's ground truth directory is given in red, and the predicted localization trajectory is given in green. The occupancy map is built on the fly simultaneously with localization
